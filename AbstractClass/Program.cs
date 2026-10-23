@@ -1,34 +1,87 @@
 ﻿
 
-Sword Suki = new Sword("Cherry", 3);
-Suki.Kill();
-Bow Blue = new Bow("Melon", 4);
-Blue.Kill();
-public abstract class Weapon
+
+
+PurpleGlass Catedral = new PurpleGlass("Mete",500);
+BlueGlass Icy = new BlueGlass("famouse", 2000);
+CheckTransparent(Icy);
+Console.WriteLine(""); 
+CheckTransparent(Catedral);
+CheckBreakable(Catedral);
+void CheckTransparent(Glass sample)
 {
-    public string Smith { get; set; }
-    public int Weight { get; set; }
-    public Weapon(string _smith, int _weight)
+    if (sample.PassLight())
     {
-        Smith = _smith;
-        Weight = _weight;
+        Console.WriteLine("It allows the light pass through");
+        
     }
-    public abstract void Kill();    // abstract methodun govdesi olmaz
-    // sadece (); yazilir birakilir
-}
-public class Sword : Weapon
-{
-    public Sword(string _smith, int _weight) : base(_smith, _weight) { }
-    public override void Kill()
+    else
     {
-        Console.WriteLine($"You have been killed by a sword crafted by  {this.Smith}");
+        Console.WriteLine("It does not allow the light pass through");
     }
 }
-public class Bow : Weapon
+void CheckBreakable(IBreakable sample)
 {
-    public Bow(string _smith, int _weight) : base(_smith, _weight) { } // constructor
-    public override void Kill()
+    if (sample.Break())
     {
-        Console.WriteLine($"You have been killed by a bow that weights only {this.Weight} kg");
+        Console.WriteLine($"{sample}It can be broken");
+    }
+    else
+    {
+        Console.WriteLine($"{sample} cant be broken");
     }
 }
+
+public abstract class Glass 
+{
+
+    public int Price { get; set; }
+    public string Brand { get; set; }
+    
+    public Glass(string _brand, int _price)
+    {
+        Price = _price;
+        Brand = _brand;
+    }
+    public abstract bool PassLight();
+}
+
+public interface IBreakable
+{
+    public bool Break();
+}
+public class BlueGlass : Glass, IBreakable
+{
+    
+    public BlueGlass(string _brand,int _price) : base(_brand,_price) { }
+    public override bool PassLight()
+    {
+        return true;
+    }
+    public bool Break()
+    {
+        return true;
+    }
+
+}
+// her sinif yalnizca bir miras alabilir ama istedigin kadar interface verebilirsin 
+public class PurpleGlass : Glass,IBreakable
+{
+
+    public PurpleGlass(string _brand, int _price) : base(_brand, _price){}
+    public override bool PassLight()
+    {
+        return false;
+    }
+    public bool Break()
+    {
+        return false;
+    }
+
+
+}
+
+
+
+
+

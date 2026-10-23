@@ -13,3 +13,4 @@ C:\Users\metec\source\repos\AbstractClass\AbstractClass\obj\Debug\net10.0\Abstra
 C:\Users\metec\source\repos\AbstractClass\AbstractClass\obj\Debug\net10.0\AbstractClass.genruntimeconfig.cache
 C:\Users\metec\source\repos\AbstractClass\AbstractClass\obj\Debug\net10.0\ref\AbstractClass.dll
 C:\Users\metec\source\repos\AbstractClass\AbstractClass\obj\Debug\net10.0\Abstract.D698E5A1.Up2Date
+C:\Users\metec\source\repos\AbstractClass\AbstractClass\obj\Debug\net10.0\AbstractClass.sourcelink.json

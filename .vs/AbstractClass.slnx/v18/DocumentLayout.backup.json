@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\metec\\source\\repos\\AbstractClass\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6D75ED4-1A95-499E-98F7-3032BF9492A4}|AbstractClass\\AbstractClass.csproj|c:\\users\\metec\\source\\repos\\abstractclass\\abstractclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6D75ED4-1A95-499E-98F7-3032BF9492A4}|AbstractClass\\AbstractClass.csproj|solutionrelative:abstractclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB705EA1-2148-28FD-1C5B-9A53EA6E3D98}|AbstractClass\\AbstractClass.csproj|c:\\users\\metec\\source\\repos\\abstractclass\\abstractclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB705EA1-2148-28FD-1C5B-9A53EA6E3D98}|AbstractClass\\AbstractClass.csproj|solutionrelative:abstractclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "AbstractClass\\Program.cs",
               "ToolTip": "C:\\Users\\metec\\source\\repos\\AbstractClass\\AbstractClass\\Program.cs",
               "RelativeToolTip": "AbstractClass\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwBoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T17:12:52.086Z",
               "EditorCaption": ""
